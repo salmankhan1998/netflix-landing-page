@@ -1,0 +1,85 @@
+.dw-sec{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 70px 55px;
+    background-color: #000;
+    border-bottom: 8px solid #222 ;
+
+    .dw-wrapper{
+        display: flex;
+        flex: 1;
+        gap: 30px;
+        flex-direction: row;
+        align-items: center;
+        margin: 0px 90px;
+
+        .dw-col-lft{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            .dwImg{
+                width: 215px;
+                height: 270px;
+                object-fit: cover;
+                position: relative;
+                z-index: 0;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .download-box{
+                margin: 0 auto;
+                background: #000;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                width: 50%;
+                min-width: 15em;
+                padding: 10px 14px;
+                border: 2px solid rgba(255,255,255,.25);
+                box-shadow: 0 0 2em 0 #000;
+                border-radius: 0.75em;
+                position: absolute;
+                bottom: 20px;
+
+                img{
+                    width: 50px;
+                    height: 70px;
+                }
+
+                .gif{
+                    width: 50px;
+                    height: 50px;
+                }
+
+                .text{
+                    h5{
+                        text-transform: capitalize;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                    p{
+                        text-transform: capitalize;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #0071eb;
+
+                    }
+                }
+            }
+        }
+        .dw-col-rght{
+            width: 50%;
+            margin-right: 30px;
+            
+        }
+    }
+}
